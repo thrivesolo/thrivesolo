@@ -321,7 +321,7 @@ export default function Home() {
                 />
                 <div className="relative h-full bg-zinc-900/50 rounded-xl overflow-hidden">
                   <img
-                    src="/jt-ryker.png"
+                    src="/jt-ryker.jpg"
                     alt="J.T. Ryker"
                     className="w-full h-full object-cover object-top block"
                   />
