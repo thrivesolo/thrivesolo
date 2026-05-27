@@ -776,7 +776,7 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF]">Get a Price</Button>
+                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF] transition-all duration-[650ms] hover:scale-[1.02]">Get a Price</Button>
               </div>
             </div>
 
@@ -855,7 +855,7 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF]">Get a Price</Button>
+                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF] transition-all duration-[650ms] hover:scale-[1.02]">Get a Price</Button>
               </div>
             </div>
 
@@ -930,7 +930,7 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF]">Get a Price</Button>
+                <Button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="w-full rounded-full bg-[#0500FF] hover:bg-[#2020FF] transition-all duration-[650ms] hover:scale-[1.02]">Get a Price</Button>
               </div>
             </div>
           </div>
