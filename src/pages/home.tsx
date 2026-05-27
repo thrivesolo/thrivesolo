@@ -162,13 +162,13 @@ export default function Home() {
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg md:text-xl text-zinc-400 mb-12 animate-fade-in-up animation-delay-200 max-w-2xl">Tax filing and tax planning from a pro you can actually talk to.<br />Clear communication. Flat-fee pricing. No surprises.</p>
+          <p className="text-lg md:text-xl text-zinc-400 mb-12 animate-fade-in-up animation-delay-200 max-w-2xl">Tax filing and tax planning from a pro you can actually talk to.<br /><em> Clear communication. Flat-fee pricing. No surprises.</em></p>
 
           {/* CTA Button */}
           <div className="animate-fade-in-up animation-delay-400">
             <Button
               size="lg"
-              onClick={scrollToServices}
+              onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")}
               className="group bg-[#0500FF] hover:bg-[#2020FF] text-white px-8 py-6 text-base rounded-full transition-all duration-[650ms] hover:scale-[1.02]"
             >
               Click to get a price
@@ -210,7 +210,7 @@ export default function Home() {
       <section id="why-work-with-me" className="relative z-20 py-24">
         <div className="container p-12 rounded-2xl z-50 bg-zinc-950/50 border border-zinc-800 mx-auto px-6 lg:px-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-balance">Why work with ThriveSolo?</h2>
-          <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl">Not all tax pros are the same. Here's what sets me apart.</p>
+          <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl">Not all tax pros are the same. Here's what sets ThriveSolo apart.</p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Year-round partnership */}
@@ -252,7 +252,7 @@ export default function Home() {
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#0500FF]/30 to-[#0500FF]/10 border border-[#0500FF]/20 flex items-center justify-center mb-6">
                   <MessageCircle className="w-5 h-5 text-[#0500FF]" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Clear communication &amp; follow-through.</h3>
+                <h3 className="text-xl font-semibold mb-2">Communication &amp; follow-through.</h3>
                 <p className="text-zinc-400 leading-relaxed">Prompt answers in plain English. Always know what's happening and why.</p>
               </div>
             </div>
@@ -381,7 +381,7 @@ export default function Home() {
         <div className="container p-12 rounded-2xl z-50 bg-zinc-950/50 border border-zinc-800 mx-auto px-6 lg:px-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-balance">How can I help?</h2>
 
-          <p className="text-lg md:text-xl text-zinc-400 mb-12">White-glove service for people who want <em>more</em> from their accountant.</p>
+          <p className="text-lg md:text-xl text-zinc-400 mb-12">White-glove service for people who want more from their accountant.</p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {/* Tax Filing */}
@@ -585,7 +585,7 @@ export default function Home() {
       <section id="who-i-serve" className="relative z-20 py-24">
         <div className="container p-12 rounded-2xl z-50 bg-zinc-950/50 border border-zinc-800 mx-auto px-6 lg:px-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 text-balance">Who do I serve?</h2>
-          <p className="text-lg md:text-xl text-zinc-400 mb-12">First-class tax services for individuals, families, and solo business owners.</p>
+          <p className="text-lg md:text-xl text-zinc-400 mb-12">Tailored tax guidance for individuals, families, and solo business owners.</p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Individuals & Families */}
@@ -671,7 +671,7 @@ export default function Home() {
                     </li>
                     <li className="flex items-start gap-3 text-zinc-400">
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#0500FF] flex-shrink-0" />
-                      Want thoughtful strategies for deductions, entity selection & more
+                      Want strategies for deductions, entity selection & more
                     </li>
                   </ul>
                 </div>
@@ -850,7 +850,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-start gap-2">
                         <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                        <span>1 meeting per year</span>
+                        <span><b>1</b> meeting per year</span>
                       </li>
                     </ul>
                   </div>
@@ -925,7 +925,7 @@ export default function Home() {
                       </li>
                       <li className="flex items-start gap-2">
                         <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                        <span>4 meetings per year</span>
+                        <span><b>4</b> meetings per year</span>
                       </li>
                     </ul>
                   </div>
@@ -937,7 +937,9 @@ export default function Home() {
           <p className="mt-10 text-center text-md text-zinc-500">
             Need help with planning only?{" "}
             <a
-              href="#"
+              href="https://thrivesolo.fillout.com/quote"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#0500FF] underline-offset-2 hover:underline hover:text-white transition-colors"
             >
               Click here.

@@ -57,7 +57,7 @@ export function Navbar() {
           >
             Pricing
           </a>
-          <button className="px-[18px] py-[10px] rounded-full border border-[#0500FF] bg-[#0500FF]/50 text-white font-medium hover:scale-105 transition-transform duration-500 cursor-pointer">
+          <button onClick={() => window.open("https://thrivesolo.fillout.com/quote", "_blank")} className="px-[18px] py-[10px] rounded-full border border-[#0500FF] bg-[#0500FF]/50 text-white font-medium hover:scale-105 transition-transform duration-500 cursor-pointer">
             Get a price
           </button>
         </div>
